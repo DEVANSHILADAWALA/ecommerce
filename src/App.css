@@ -1,0 +1,156 @@
+.search-box {
+  width: 350px;
+  max-width: 100%;
+}
+
+.search-box input {
+  border-right: none;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.search-box button {
+  border-left: none;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.blue-navbar {
+  background-color: #34568e;
+}
+
+.navbar .btn-link {
+  border: none;
+}
+
+.carousel-img {
+  height: 340px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.feature {
+  background-color: #f8f9fa;
+}
+
+.feature-content {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.feature-content:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.fashion-container {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  align-items: stretch;
+}
+
+/* Left and Right columns take full height */
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+.middle-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Image styles */
+.fashion-container img {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  display: block;
+}
+
+/* Left and Right images: tall (full column height) */
+.left-column img,
+.right-column img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+/* Middle stacked images */
+.middle-column img {
+  height: 50%;
+  background-size: contain;
+}
+.images{
+  height: 100%;
+  width: 100%;
+}
+
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+  background: #3F69AA;
+  display: inline-block;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  
+}
+p{
+  text-align: center;
+  color: #3F69AA;
+
+}
+
+.product-image:hover {
+ 
+  background: rgba(65, 92, 134, 0.5);
+}
+
+.product-image img {
+  width: 100%;
+  /* Make image fill container width */
+  display: block;
+  /* Remove inline space */
+  transition: filter 0.2s ease;
+}
+
+.product-image:hover img {
+  filter: blur(1px);
+}
+.featured {
+  color: #3F69AA;
+  text-align: center;
+}
+.Brands{
+  color: #3F69AA;
+  text-align: center;
+}
+
+/* Login css */
+.login-wrapper {
+  background-color: #f0f2f5;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.btncol{
+  background-color: #5280c9;
+  color: #eee;
+}
+.form-label{
+  color: #37455a;
+}
+.form-label1{
+  color:#3F69AA;
+}
+
